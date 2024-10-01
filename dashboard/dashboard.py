@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv("day.csv")
+data = pd.read_csv("data/day.csv")
 st.title("Dashboard Penyewaan Sepeda")
 
 st.subheader("Perbandingan Pengguna Casual dan Registered")
